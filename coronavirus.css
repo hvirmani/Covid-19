@@ -1,0 +1,55 @@
+*{
+	font-family: monospace;
+	font-size: 17px;
+	font-weight: 500;
+	margin:0;
+}
+p{
+	text-shadow: 1px 1px 1px white;
+}
+header{
+	background-image: url(1.1.jpg);
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+h3{
+	margin: 0%;
+	font-display: block;
+	font-size:35px;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px lightgreen;
+	text-decoration: underline;
+}
+h1{
+	margin: 0% 2.5%;
+	font-size:60px;
+	color:white;
+	text-shadow: 3px 5px 3px red;
+	padding:0.5rem;
+}
+abbr{
+	font-style: oblique;
+	font-weight: 1000;
+}
+.abstract,.Symptoms,.origin,.Precautions{
+	display: block;
+	margin:1% 1% 1% 0.5%;
+	font-display: block;
+	text-align: justify;
+	background-color: lightgoldenrodyellow;
+	border-radius: 20px;
+}
+img{
+	height:220px;
+	width:300px;
+	border-radius: 20px;
+}
+body{
+	background-color:lightblue;
+}
+.abstract{
+	margin-top: 2%;
+}
+.Precautions{
+	margin-bottom:2%;
+}
