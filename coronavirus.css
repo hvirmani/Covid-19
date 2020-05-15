@@ -37,8 +37,39 @@ abbr{
 	font-display: block;
 	text-align: justify;
 	background-color: lightgoldenrodyellow;
-	border-radius: 20px;
+	border-radius: 20px;	
 }
+.abstract,.Symptoms{
+	animation-name: left;
+	animation-duration: 5s;
+}
+@keyframes left {
+	from {
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0);
+	}
+	to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+	}
+}
+
+.Precautions,.origin{
+	animation-name:right;
+	animation-duration: 5s;
+}
+
+@keyframes right{
+	from {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0);
+	}
+	to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+	}
+}
+
 img{
 	height:220px;
 	width:300px;
